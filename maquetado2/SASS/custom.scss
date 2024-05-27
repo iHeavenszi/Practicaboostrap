@@ -1,0 +1,235 @@
+
+@media (min-width: 992px) {
+    .alto-100 {
+        height: 100vh;
+    }
+}
+
+  .img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Para que la imagen esté detrás del texto */
+    width: 100%; /* Para que ocupe todo el ancho del contenedor */
+    height: 100&; /* Para mantener la relación de aspecto */
+  }
+  
+  .lead {
+    color: #000; /* Código hexadecimal para negro */
+    font-weight: bold;
+    align-items: right;
+    
+}
+.product-device {
+  justify-content: center;
+  text-align: center; // Alinea el texto a la izquierda
+  white-space: nowrap; // Evita que el texto se divida en varias líneas
+  padding-left: 20px; // Ajusta el espacio a la izquierda del contenedor
+  padding-right: 20px; // Ajusta el espacio a la derecha del contenedor
+  width: 1100px;
+  height: 20px;
+  position: absolute;
+  display: flex;
+  right: 150px;
+
+
+ 
+
+}
+
+.found {
+  position: relative; /* Asegura que el fondo blanco transparente se superponga correctamente */
+  z-index: 1; /* Asegura que el fondo blanco transparente esté encima de la imagen */
+  background-color: rgba(247, 240, 240, 0.314); /* Fondo blanco transparente */
+  padding: 20px; /* Ajusta el padding según sea necesario */
+  border-radius: 5px;
+  width: 1;
+}
+.found2 {
+  position: relative; /* Asegura que el fondo blanco transparente se superponga correctamente */
+  z-index: 1; /* Asegura que el fondo blanco transparente esté encima de la imagen */
+  background-color: rgba(247, 240, 240, 0.314); /* Fondo blanco transparente */
+  padding: 20px; /* Ajusta el padding según sea necesario */
+  border-radius: 5px;
+  width: 95%;
+  left: 1%;
+}
+.card-primary{
+  position: relative;
+  
+} 
+.card-secondary{
+  position: relative;
+  left: 3.78%;
+}
+.card-three{
+  position: relative;
+  left: 6.7%;
+}
+.icono{
+  height: 100%;
+  width: 100%;
+
+}
+.lols {
+  z-index: 1; /* Para que la imagen esté detrás del texto */
+  position: relative;
+  bottom: -200%;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%; /* Ajustar el ancho al 50% del contenedor principal */
+  margin: 0 auto; /* Centrar horizontalmente */
+  height: 90%;
+  border-bottom: #1a1818ca;
+  border: 2px #000;
+  left: 2%;
+}
+.card3{
+  z-index: 1;
+  display: flex;
+  position: relative;
+  background-color: #007bff;
+  left: -30%;
+}
+.card2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; /* Esto centra el texto horizontalmente */
+}
+
+
+
+
+
+
+.amazon{
+  height: 80%;
+  width: 80%;
+  position: relative;
+  top: 10%;
+}
+.worlds{
+  height: 100%;
+  width: 100%;
+}
+.warwick{
+  height: 60%;
+  width: 60%;
+  position: relative;
+  top: 20%;
+}
+.icono2{
+  height: 95%;
+  width: 95%;
+}
+
+.esports{
+  height: 100%;
+  width: 100%;
+}
+$containers-max-widths:(
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 960px,
+    xxl:960px
+);
+.posicion{
+  position: absolute;
+  right: 23%;
+  top: 290%;
+}
+.buttonShop {
+  // Estilos básicos del botón
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #a36b18; /* Color de fondo */
+  color: white; /* Color del texto */
+  cursor: pointer;
+
+  // Estilos al pasar el ratón por encima
+  &:hover {
+    background-color: #734a0d; /* Color de fondo al pasar el ratón */
+  }
+
+  // Estilos cuando el botón está presionado
+  &:active {
+    background-color: #e89821; /* Color de fondo cuando está presionado */
+  }
+
+  // Estilos cuando está deshabilitado
+  &:disabled {
+    background-color: #cccccc; /* Color de fondo cuando está deshabilitado */
+    cursor: not-allowed; /* Cursor de no permitido */
+  }
+}
+// Definición de colores para los contenedores
+$color-container-primary: #343a40; // Gris oscuro
+$color-container-secondary: #6c757d; // Gris medio
+$color-container-three: #007bff; // Azul primario
+
+// Estilos de los contenedores
+.mainCard {
+  background-color: $color-container-primary; // Color de fondo para el primer contenedor
+}
+
+.boxCover{
+  background-color: rgba(0, 0, 0, 0.286);
+  width: 100%;
+  height: 100%;
+}
+$dark-color-1: #333333; // Gris oscuro
+$dark-color-2: #2C3E50; // Azul grisáceo oscuro
+$dark-color-3: #4A235A; // Púrpura oscuro
+$dark-color-4: #7B7D7D; // Gris oscuro
+$dark-color-5: #2d4237; // Azul grisáceo oscuro
+$dark-color-6: #1a1818ca;
+
+.bg-dark-color-1{
+  background-color: $dark-color-1;
+}
+
+.bg-dark-color-2 {
+  background-color: $dark-color-2;
+}
+
+.bg-dark-color-3 {
+  background-color: $dark-color-3;
+}
+
+.bg-dark-color-4 {
+  background-color: $dark-color-4;
+}
+
+.bg-dark-color-5 {
+  background-color: $dark-color-5;
+}
+.bg-dark-color-6{
+  background-color: $dark-color-6
+}
+.titulo{
+  position: absolute;
+  right: 15%;
+  top: 250%;
+}
+.titulo2{
+  position: absolute;
+  right: 3%;
+  top: 270%;
+  text-align: left;
+  font-size: 130%;
+  
+}
+
+
+
+
+
+
+
+@import"../node_modules/bootstrap/scss/bootstrap";
